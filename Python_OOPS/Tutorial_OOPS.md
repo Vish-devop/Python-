@@ -56,3 +56,29 @@
     
     -> To understand better about self: checkout -> self.py file in folder. 
 
+
+(3) Constructors: 
+    -> It's a (special) method, where name of constructor is always __init__().
+    -> Since, name of the constructor is always __init__(), we can't use the property of (method overloading) in the python. 
+    -> We're not required to call constructor (explicitly) and it will be (executed automatically) when we're (creating an object). 
+    -> per object constructor will be executed only (once); so for every-time constructor will be executed only once for a single object. 
+    -> Main purpose of constrcutor is to (declare) and (initlialize instance variables): __init__() means initialization. 
+    -> Constructors should take atleast (1) positional argument. 
+    -> Within the python class, constructor is (optional) and if we're not providing constructor: by-default constructor will be provided by PVM. 
+    -> We can call constructor explicitly then, it would be executed just like a normal method and new object won't be created. 
+    -> Python does not support "method overloading" but it gives a support of "operator overloading".
+        and, if you're trying to declare multiple constructors, PVM will always consider only last constructor. 
+    
+
+(4) Method vs Constructor: 
+    -> Method: 
+        -> Method name can be anything. 
+        -> Methods won't be executed automatically, we have to call them explicitly. 
+        -> per object, we can call method any number of times. 
+        -> Inside method, we can write business logic based on our requirement. 
+
+    -> Constructor: 
+        -> Constructor name should be __init__().
+        -> Constructor will be executed automatically whenever we're creating an object. 
+        -> Per obejct constructor will be executed only once. 
+        -> Inside constructor, we have to write code to declare & initialize (instance variables). 
