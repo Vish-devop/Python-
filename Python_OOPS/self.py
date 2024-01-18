@@ -60,5 +60,19 @@ class Student:
     
 s1=Student('Jammy',101)
 s1.activity()
-print(s1.activity())
-    
+
+
+'''
+YOu run the above code, and see what you get, 
+Hope you get the correct output without getting any typeError 😁.
+
+After seeing, the above example where we have used delf inspite of 'self' we can say: 
+(self) is not a [keyword] it's the [variable]
+
+I think now, it's clear: what is (self) - a (keyword) or (variable) 
+So, what is self -> keyword or variable 😄.
+
+In the next file: constructor.py we would see what is __init__ and what is a constructor in detial.
+'''
+
+print("-----------------------------------------------------")
