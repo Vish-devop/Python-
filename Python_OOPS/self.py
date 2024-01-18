@@ -60,7 +60,7 @@ class Student:
     
 s1=Student('Jammy',101)
 s1.activity()
-
+print("-----------------------------------------------------------------------------------------------")
 
 '''
 YOu run the above code, and see what you get, 
@@ -75,4 +75,3 @@ So, what is self -> keyword or variable 😄.
 In the next file: constructor.py we would see what is __init__ and what is a constructor in detial.
 '''
 
-print("-----------------------------------------------------")
