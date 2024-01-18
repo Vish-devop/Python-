@@ -22,6 +22,17 @@ print(s.name, s.roll_number, s.marks)
 print("---------------------------------")
 s.talk()
 
+
+'''
+How to run this code: 
+1. First go into the directory of your source code by using the command : cd
+2. Then at the terminal type: python file_name
+e.g. -> python Basic_example_of_Class.py (in this file name is: Basic_example_of_Class.py that's present inside the Python_OOPS folder)
+
+NOTE: if the pointer is not present in this directory, then you might see the error like: NO such file or directory, 
+to avoid that, check your directory where the source code is present.
+
+'''
 '''
 Explanation: 
 -> A class "Student" is been used to create the class. 
@@ -32,3 +43,7 @@ Explanation:
 
 Hope you've understood this basic concept of class, object, method, reference variable
 '''
+if s1==s2: 
+    return True 
+else: 
+    return False 
