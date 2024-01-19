@@ -82,3 +82,6 @@
         -> Constructor will be executed automatically whenever we're creating an object. 
         -> Per obejct constructor will be executed only once. 
         -> Inside constructor, we have to write code to declare & initialize (instance variables). 
+
+(5) Let's understand the all above concepts by taking a simple example: 
+    -> 1st Example is present in file = "Movie_Applcation.py"
